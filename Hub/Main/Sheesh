@@ -14,7 +14,7 @@ end)
 
 tab.newButton("Fai Fao Hub", "🤫🧏", function()
 
-loadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua")()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua")()
 
 end)
  
@@ -243,7 +243,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/GalaxyTeamHub/Galaxy-
 
 end)
 
-tab.newButton("Kee Hub", "🤫🧏" function()
+tab.newButton("Kee Hub", "🤫🧏", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nghia11n/Kee-Hub/main/keemain.lua"))()
 
