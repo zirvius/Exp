@@ -10,13 +10,13 @@ local Window = OrionLib:MakeWindow({Name = "Exp Hub", HidePremium = false, SaveC
 
 local Tab = Window:MakeTab({
 	Name = "Blox Fruits",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://1827521158",
 	PremiumOnly = false
 })
 
 local Tab2 = Window:MakeTab({
 	Name = "FCPBRX (BF)",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://1827521158",
 	PremiumOnly = false
 })
 
