@@ -236,7 +236,7 @@ Tab2:AddButton({
 	Name = "AimBot",
 	Callback = function()
         repeat wait(5) until game:IsLoaded()
-        c
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RedWirePlatinumTwo/RobloxScripts/main/Aimbot.lua'))()
   	end    
 })
 	
