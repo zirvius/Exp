@@ -33,7 +33,7 @@ Tab2:AddButton({
 	Callback = function()
 	    showNotification("Hey!", "This script is less like this one")
         repeat wait(5) until game:isLoaded()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/zirvius/Exp/main/Hub/Sheesh"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/zirvius/Exp/main/Hub/Main/Sheesh"))()
   	end    
 })
 
@@ -347,8 +347,8 @@ Tab2:AddButton({
 Tab:AddButton({
 	Name = "My first script (Exp hub (DrRay)) (same like this)",
 	Callback = function()
-	    showNotification("Script Error", "Im to lazy to fix it")
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/zirvius/Exp/main/Hub/Rorrrrrrrrrrrrrrrrr"))()
+	    showNotification("Hey!", "This script is less like this one")
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/zirvius/Exp/main/Hub/Main/Sheesh"))()
   	end    
 })
 
