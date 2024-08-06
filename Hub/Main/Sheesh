@@ -1,5 +1,5 @@
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
-local window = DrRayLibrary:Load("Exp hub",
+local window = DrRayLibrary:Load("Exp Hub",
 "Default")
 
 local tab = DrRayLibrary.newTab("Script", "ImageIdHere")
@@ -14,7 +14,7 @@ end)
 
 tab.newButton("Fai Fao Hub", "🤫🧏", function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua")()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua"))()
 
 end)
  
@@ -50,7 +50,7 @@ end)
 
 tab.newButton("HaloXHub", "🤫🧏", function()
 
-loadstring(game:HttpGet'https://raw.githubusercontent.com/HALOxHUB/ScriptLoader/main/Loader.lua')()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HALOxHUB/ScriptLoader/main/Loader.lua"))()
 
 end)
 
@@ -111,13 +111,13 @@ end)
 
 tab.newButton("Auto Cdk", "🤫🧏", function()
 
-loadstring(game:HttpGet("https://raw.gifthubusercontent.com/xQuartyX/DonateMe/main/OldBf"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyX/DonateMe/main/OldBf"))()
 
 end)
 
 tab.newButton("Auto Soul Gitar", "🤫🧏", function()
 
-loadstring(game:HttpGet("https://raw.gifthubusercontent.com/Fiend1sh/FiendMain/main/MadoxHubKey",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/MadoxHubKey",true))()
 
 end)
 
