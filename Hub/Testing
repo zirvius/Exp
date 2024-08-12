@@ -6,6 +6,12 @@ OrionLib:MakeNotification({
     Time = 10
 })
 
+OrionLib:MakeNotification({
+    Name = "I will add script again",
+    Content = "If i intend",
+    Time = 10
+})
+
 local Window = OrionLib:MakeWindow({Name = "Exp Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 
 local Tab = Window:MakeTab({
@@ -27,6 +33,10 @@ local function showNotification(name, content)
         Time = 5
     })
 end
+
+local Section = Tab2:AddSection({
+	Name = "ueheheheh9eheh"
+})
 
 Tab2:AddButton({
 	Name = "My first script (Exp hub) (same like this)",
@@ -344,8 +354,12 @@ Tab2:AddButton({
   	end    
 })
 
+local Section = Tab:AddSection({
+	Name = "testing bruh"
+})
+
 Tab:AddButton({
-	Name = "My first script (Exp hub (DrRay)) (same like this)",
+	Name = "My first script (Exp hub) (same like this)",
 	Callback = function()
 	    showNotification("Hey!", "This script is less like this one")
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/zirvius/Exp/main/Hub/Main/Sheesh"))()
